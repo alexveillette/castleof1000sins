@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 88e475f2ee733d44693f4a5f09c7a81f
+timeCreated: 1436745946
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idleup
+    21300002: walkup2
+    21300004: walkup3
+    21300006: walkup4
+    21300008: walkup5
+    21300010: walkup6
+    21300012: walkup7
+    21300014: walkup8
+    21300016: walkup9
+    21300018: hero_9
+    21300020: hero_10
+    21300022: hero_11
+    21300024: hero_12
+    21300026: hero_13
+    21300028: hero_14
+    21300030: hero_15
+    21300032: hero_16
+    21300034: hero_17
+    21300036: idleleft
+    21300038: walkleft2
+    21300040: walkleft3
+    21300042: walkleft4
+    21300044: walkleft5
+    21300046: walkleft6
+    21300048: walkleft7
+    21300050: walkleft8
+    21300052: walkleft9
+    21300054: hero_27
+    21300056: hero_28
+    21300058: hero_29
+    21300060: hero_30
+    21300062: hero_31
+    21300064: hero_32
+    21300066: hero_33
+    21300068: hero_34
+    21300070: hero_35
+    21300072: idledown
+    21300074: walkdown2
+    21300076: walkdown3
+    21300078: walkdown4
+    21300080: walkdown5
+    21300082: walkdown6
+    21300084: walkdown7
+    21300086: walkdown8
+    21300088: walkdown9
+    21300090: hero_45
+    21300092: hero_46
+    21300094: idleright
+    21300096: walkright2
+    21300098: walkright3
+    21300100: walkright4
+    21300102: walkright5
+    21300104: walkright6
+    21300106: walkright7
+    21300108: walkright8
+    21300110: walkright9
+    21300112: falling1
+    21300114: g2
+    21300116: falling3
+    21300118: falling4
+    21300120: casting
+    21300122: attackup1
+    21300124: attackup2
+    21300126: attackup3
+    21300128: attackup4
+    21300130: attackup5
+    21300132: attackup6
+    21300134: attackleft1
+    21300136: attackleft2
+    21300138: attackleft3
+    21300140: attackleft4
+    21300142: attackleft5
+    21300144: attackleft6
+    21300146: attackdown1
+    21300148: attackdown2
+    21300150: attackdown3
+    21300152: attackdown4
+    21300154: attackdown5
+    21300156: attackdown6
+    21300158: attackright1
+    21300160: attackright2
+    21300162: attackright3
+    21300164: attackright4
+    21300166: attackright5
+    21300168: attackright6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idleup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1012
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1012
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1011
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1010
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1011
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1012
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1011
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1010
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkup9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1011
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idleleft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 946
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 947
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 948
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 948
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 947
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 947
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 947
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft8
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 947
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkleft9
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 947
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idledown
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 881
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 881
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 882
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 882
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 881
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 881
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 882
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 882
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkdown9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 881
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idleright
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 818
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 819
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 820
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 820
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 819
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 819
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 819
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 819
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkright9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 819
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: falling1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 743
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: g2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 746
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: falling3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 746
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: falling4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 743
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: casting
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 748
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackup1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 615
+        width: 125
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackup2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 615
+        width: 125
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackup3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 615
+        width: 125
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackup4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 614
+        width: 125
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackup5
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 607
+        width: 125
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackup6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 612
+        width: 125
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackleft1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 439
+        width: 150
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackleft2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 438
+        width: 150
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackleft3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 439
+        width: 150
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackleft4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 439
+        width: 150
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackleft5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 439
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackleft6
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 439
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackdown1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 206
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackdown2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 206
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackdown3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 206
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackdown4
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 207
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackdown5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 208
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackdown6
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 209
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackright1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 58
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackright2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 57
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackright3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 60
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackright4
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 61
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackright5
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 61
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attackright6
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 61
+        width: 160
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
