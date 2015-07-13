@@ -1,5 +1,6 @@
 ﻿using UnityEngine; 
-using System.Collections; 
+using System.Collections;
+
 public class playerController : MonoBehaviour { 
 	
 	private Animator anim;
@@ -11,7 +12,6 @@ public class playerController : MonoBehaviour {
 
 		anim = GetComponent<Animator> ();
 		rb = GetComponent<Rigidbody2D> ();
-		rb.freezeRotation = true;
 	} 
 
 	void Update() {

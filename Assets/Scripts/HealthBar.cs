@@ -3,16 +3,14 @@ using System.Collections;
 
 public class HealthBar : MonoBehaviour {
 
-	public float health = 0f;
-	public RectTransform rectTransform;
+	public float health = 1.0f;
 
 	void Start () {
-		rectTransform = GetComponent<RectTransform> ();
 
 	}
 
 	void Update () {
-		rectTransform.localScale = new Vector3 (rectTransform.localScale.x, health, rectTransform.localScale.z);
+		this.transform.localScale = new Vector3 (transform.localScale.x, health, transform.localScale.z);
 	}
 
 	void AdjustHealth(float change){
@@ -24,5 +22,12 @@ public class HealthBar : MonoBehaviour {
 		}
 
 		health += change;
+
+		if (health < 0) {
+			health = 0;
+		}
+		else if (health > 1) {
+			health = 1;
+		}
 	}
 }
