@@ -37,7 +37,6 @@ public class playerController : MonoBehaviour {
 			movement = new Vector3 (0, 0, 0);
 		}
 
-
 		rb.velocity = movement;
 	} 
 }

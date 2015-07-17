@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 7f015fd7fda670a46ad25be4c5a5a3a3
-timeCreated: 1436729523
-licenseType: Free
+timeCreated: 1436900155
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: zombieup1man
@@ -77,20 +77,20 @@ TextureImporter:
     - name: zombieup1man
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 224
-        width: 24
-        height: 32
+        width: 22
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: zombieup2man
       rect:
         serializedVersion: 2
-        x: 24
+        x: 25
         y: 224
-        width: 24
-        height: 32
+        width: 22
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,7 +100,7 @@ TextureImporter:
         x: 48
         y: 224
         width: 24
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,8 +109,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 192
-        width: 24
-        height: 32
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
         serializedVersion: 2
         x: 24
         y: 192
-        width: 24
-        height: 32
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,18 +129,18 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 192
-        width: 24
-        height: 32
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: zombiedown1man
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 160
-        width: 24
-        height: 32
+        width: 21
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,17 +150,17 @@ TextureImporter:
         x: 24
         y: 160
         width: 24
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 2, w: 0}
     - name: zombiedown3man
       rect:
         serializedVersion: 2
         x: 48
         y: 160
-        width: 24
-        height: 32
+        width: 22
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,7 +170,7 @@ TextureImporter:
         x: 0
         y: 128
         width: 24
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,7 +180,7 @@ TextureImporter:
         x: 24
         y: 128
         width: 24
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,7 +190,7 @@ TextureImporter:
         x: 48
         y: 128
         width: 24
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,7 +212,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_50
       rect:
@@ -222,7 +222,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_60
       rect:
@@ -232,7 +232,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_61
       rect:
@@ -242,7 +242,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_62
       rect:
@@ -252,7 +252,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_72
       rect:
@@ -262,7 +262,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_73
       rect:
@@ -272,7 +272,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_74
       rect:
@@ -282,7 +282,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_84
       rect:
@@ -292,7 +292,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_85
       rect:
@@ -302,7 +302,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mterrazombiesfo6_86
       rect:
@@ -322,7 +322,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
