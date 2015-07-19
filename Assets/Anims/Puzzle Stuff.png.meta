@@ -1,0 +1,979 @@
+fileFormatVersion: 2
+guid: c6da0be6a23bd1f47a7b993c576dfddd
+timeCreated: 1437320338
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: walllever1
+    21300002: lever1
+    21300004: Puzzle Stuff_2
+    21300006: Puzzle Stuff_3
+    21300008: Puzzle Stuff_4
+    21300010: Puzzle Stuff_5
+    21300012: Puzzle Stuff_6
+    21300014: Puzzle Stuff_7
+    21300016: Puzzle Stuff_8
+    21300018: walllever2
+    21300020: lever2
+    21300022: flame1
+    21300024: flame2
+    21300026: flame3
+    21300028: Puzzle Stuff_14
+    21300030: Puzzle Stuff_15
+    21300032: Puzzle Stuff_16
+    21300034: Puzzle Stuff_17
+    21300036: Puzzle Stuff_18
+    21300038: walllever3
+    21300040: lever3
+    21300042: emptyflame1
+    21300044: emptyflame2
+    21300046: emptyflame3
+    21300048: Puzzle Stuff_24
+    21300050: Puzzle Stuff_25
+    21300052: Puzzle Stuff_26
+    21300054: Puzzle Stuff_27
+    21300056: walllever4
+    21300058: lever4
+    21300060: Puzzle Stuff_30
+    21300062: Puzzle Stuff_31
+    21300064: Puzzle Stuff_32
+    21300066: Puzzle Stuff_33
+    21300068: Puzzle Stuff_34
+    21300070: Puzzle Stuff_35
+    21300072: Puzzle Stuff_36
+    21300074: Puzzle Stuff_37
+    21300076: Puzzle Stuff_38
+    21300078: Puzzle Stuff_39
+    21300080: Puzzle Stuff_40
+    21300082: Puzzle Stuff_41
+    21300084: Puzzle Stuff_42
+    21300086: Puzzle Stuff_43
+    21300088: Puzzle Stuff_44
+    21300090: Puzzle Stuff_45
+    21300092: Puzzle Stuff_46
+    21300094: Puzzle Stuff_47
+    21300096: Puzzle Stuff_48
+    21300098: Puzzle Stuff_49
+    21300100: Puzzle Stuff_50
+    21300102: Puzzle Stuff_51
+    21300104: Puzzle Stuff_52
+    21300106: Puzzle Stuff_53
+    21300108: Puzzle Stuff_54
+    21300110: Puzzle Stuff_55
+    21300112: Puzzle Stuff_56
+    21300114: Puzzle Stuff_57
+    21300116: Puzzle Stuff_58
+    21300118: Puzzle Stuff_59
+    21300120: Puzzle Stuff_60
+    21300122: Puzzle Stuff_61
+    21300124: Puzzle Stuff_62
+    21300126: Puzzle Stuff_63
+    21300128: Puzzle Stuff_64
+    21300130: Puzzle Stuff_65
+    21300132: Puzzle Stuff_66
+    21300134: Puzzle Stuff_67
+    21300136: Puzzle Stuff_68
+    21300138: Puzzle Stuff_69
+    21300140: Puzzle Stuff_70
+    21300142: Puzzle Stuff_71
+    21300144: circle1
+    21300146: circle2
+    21300148: circle3
+    21300150: Puzzle Stuff_75
+    21300152: Puzzle Stuff_76
+    21300154: Puzzle Stuff_77
+    21300156: Puzzle Stuff_78
+    21300158: Puzzle Stuff_79
+    21300160: Puzzle Stuff_80
+    21300162: Puzzle Stuff_81
+    21300164: Puzzle Stuff_82
+    21300166: Puzzle Stuff_83
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: walllever1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 236
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lever1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 226
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 224
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 223
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 224
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 224
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 224
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 224
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 224
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walllever2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 204
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lever2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 194
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 192
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 192
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 192
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 192
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 192
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 192
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 160
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walllever3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 172
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lever3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 162
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: emptyflame1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 160
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: emptyflame2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 160
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: emptyflame3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 160
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walllever4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 140
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lever4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 130
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_32
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_33
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_35
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 96
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_38
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 96
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_40
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_41
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 96
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 96
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 96
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_44
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 96
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 97
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_46
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 97
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_47
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 97
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 64
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_50
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 64
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_52
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 64
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_53
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 64
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 64
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_55
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 64
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_56
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 64
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_57
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 65
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_58
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 65
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_59
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 65
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_62
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_63
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 32
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_64
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 32
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_65
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 32
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 32
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_67
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 32
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_68
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 32
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_69
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 33
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_70
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 33
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_71
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 33
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: circle1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: circle2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: circle3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_75
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_77
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_78
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_79
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_80
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_81
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_82
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puzzle Stuff_83
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
