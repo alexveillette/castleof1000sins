@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Zombie : Enemy {
+public class Zombie : Enemy 
+{
 
-	void Start () {
+	void Start () 
+	{
 		SetVariables ();
 
 		damage = 1;
@@ -11,7 +13,8 @@ public class Zombie : Enemy {
 		speed = 0.2f;
 	}
 
-	void FixedUpdate() {
+	void FixedUpdate() 
+	{
 
 		if (Vector2.Distance(player.transform.position, transform.position) < 2f)
 		{

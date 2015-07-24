@@ -1,12 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Game.cs">
     <Files>
-      <File FileName="Assets\Scripts\Zombie.cs" Line="11" Column="16" />
-      <File FileName="Assets\Scripts\SpawnScript.cs" Line="21" Column="1" />
-      <File FileName="Assets\Scripts\Enemy.cs" Line="132" Column="2" />
-      <File FileName="Assets\Scripts\Game.cs" Line="15" Column="36" />
-      <File FileName="Assets\Scripts\playerController.cs" Line="13" Column="24" />
+      <File FileName="Assets\Scripts\Zombie.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SpawnScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\playerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreManager.cs" Line="8" Column="26" />
+      <File FileName="Assets\Scripts\EnergyBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LifeBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PurityBar.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

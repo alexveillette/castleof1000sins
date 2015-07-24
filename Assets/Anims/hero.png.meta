@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 88e475f2ee733d44693f4a5f09c7a81f
-timeCreated: 1436745946
-licenseType: Free
+timeCreated: 1437743734
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: idleup
@@ -89,6 +89,10 @@ TextureImporter:
     21300164: attackright4
     21300166: attackright5
     21300168: attackright6
+    21300170: whirlwind
+    21300172: whirlwind3
+    21300174: whirlwind2
+    21300176: whirlwind4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -781,6 +785,46 @@ TextureImporter:
         y: 61
         width: 160
         height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whirlwind
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 655
+        width: 143
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whirlwind3
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 549
+        width: 142
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whirlwind2
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 651
+        width: 173
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: whirlwind4
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 526
+        width: 175
+        height: 140
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

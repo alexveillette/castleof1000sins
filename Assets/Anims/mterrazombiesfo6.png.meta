@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7f015fd7fda670a46ad25be4c5a5a3a3
-timeCreated: 1436900155
+timeCreated: 1437742922
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -29,6 +29,13 @@ TextureImporter:
     21300044: mterrazombiesfo6_85
     21300046: mterrazombiesfo6_86
     21300048: mterrazombiesfo6_95
+    21300050: death1
+    21300052: death2
+    21300054: death3
+    21300056: death4
+    21300058: death5
+    21300060: death6
+    21300062: death7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -321,6 +328,76 @@ TextureImporter:
         y: 0
         width: 24
         height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: death1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 221
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: death2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 218
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: death3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 217
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: death4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 216
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: death5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 216
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: death6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 178
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: death7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 174
+        width: 43
+        height: 45
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

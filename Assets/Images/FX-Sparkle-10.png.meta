@@ -1,9 +1,114 @@
 fileFormatVersion: 2
 guid: d88cca0e925c86548bee6009ce4c0c5d
-timeCreated: 1437319770
-licenseType: Free
+timeCreated: 1437742381
+licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: essence1
+    21300002: essence2
+    21300004: essence3
+    21300006: FX-Sparkle-10_3
+    21300008: FX-Sparkle-10_4
+    21300010: FX-Sparkle-10_5
+    21300012: FX-Sparkle-10_6
+    21300014: FX-Sparkle-10_7
+    21300016: FX-Sparkle-10_8
+    21300018: FX-Sparkle-10_9
+    21300020: FX-Sparkle-10_10
+    21300022: FX-Sparkle-10_11
+    21300024: FX-Sparkle-10_12
+    21300026: FX-Sparkle-10_13
+    21300028: FX-Sparkle-10_14
+    21300030: FX-Sparkle-10_15
+    21300032: FX-Sparkle-10_16
+    21300034: FX-Sparkle-10_17
+    21300036: FX-Sparkle-10_18
+    21300038: FX-Sparkle-10_19
+    21300040: FX-Sparkle-10_20
+    21300042: FX-Sparkle-10_21
+    21300044: FX-Sparkle-10_22
+    21300046: FX-Sparkle-10_23
+    21300048: FX-Sparkle-10_24
+    21300050: FX-Sparkle-10_25
+    21300052: FX-Sparkle-10_26
+    21300054: FX-Sparkle-10_27
+    21300056: FX-Sparkle-10_28
+    21300058: FX-Sparkle-10_29
+    21300060: FX-Sparkle-10_30
+    21300062: FX-Sparkle-10_31
+    21300064: FX-Sparkle-10_32
+    21300066: FX-Sparkle-10_33
+    21300068: FX-Sparkle-10_34
+    21300070: FX-Sparkle-10_35
+    21300072: FX-Sparkle-10_36
+    21300074: FX-Sparkle-10_37
+    21300076: FX-Sparkle-10_38
+    21300078: FX-Sparkle-10_39
+    21300080: FX-Sparkle-10_40
+    21300082: FX-Sparkle-10_41
+    21300084: FX-Sparkle-10_42
+    21300086: FX-Sparkle-10_43
+    21300088: FX-Sparkle-10_44
+    21300090: FX-Sparkle-10_45
+    21300092: FX-Sparkle-10_46
+    21300094: FX-Sparkle-10_47
+    21300096: FX-Sparkle-10_48
+    21300098: FX-Sparkle-10_49
+    21300100: FX-Sparkle-10_50
+    21300102: FX-Sparkle-10_51
+    21300104: FX-Sparkle-10_52
+    21300106: FX-Sparkle-10_53
+    21300108: FX-Sparkle-10_54
+    21300110: FX-Sparkle-10_55
+    21300112: FX-Sparkle-10_56
+    21300114: FX-Sparkle-10_57
+    21300116: FX-Sparkle-10_58
+    21300118: FX-Sparkle-10_59
+    21300120: FX-Sparkle-10_60
+    21300122: FX-Sparkle-10_61
+    21300124: FX-Sparkle-10_62
+    21300126: FX-Sparkle-10_63
+    21300128: FX-Sparkle-10_64
+    21300130: FX-Sparkle-10_65
+    21300132: FX-Sparkle-10_66
+    21300134: FX-Sparkle-10_67
+    21300136: FX-Sparkle-10_68
+    21300138: FX-Sparkle-10_69
+    21300140: FX-Sparkle-10_70
+    21300142: FX-Sparkle-10_71
+    21300144: FX-Sparkle-10_72
+    21300146: FX-Sparkle-10_73
+    21300148: FX-Sparkle-10_74
+    21300150: FX-Sparkle-10_75
+    21300152: FX-Sparkle-10_76
+    21300154: FX-Sparkle-10_77
+    21300156: FX-Sparkle-10_78
+    21300158: FX-Sparkle-10_79
+    21300160: FX-Sparkle-10_80
+    21300162: FX-Sparkle-10_81
+    21300164: FX-Sparkle-10_82
+    21300166: FX-Sparkle-10_83
+    21300168: FX-Sparkle-10_84
+    21300170: FX-Sparkle-10_85
+    21300172: FX-Sparkle-10_86
+    21300174: FX-Sparkle-10_87
+    21300176: FX-Sparkle-10_88
+    21300178: FX-Sparkle-10_89
+    21300180: FX-Sparkle-10_90
+    21300182: FX-Sparkle-10_91
+    21300184: FX-Sparkle-10_92
+    21300186: FX-Sparkle-10_93
+    21300188: FX-Sparkle-10_94
+    21300190: FX-Sparkle-10_95
+    21300192: FX-Sparkle-10_96
+    21300194: FX-Sparkle-10_97
+    21300196: FX-Sparkle-10_98
+    21300198: FX-Sparkle-10_99
+    21300200: FX-Sparkle-10_100
+    21300202: FX-Sparkle-10_101
+    21300204: FX-Sparkle-10_102
+    21300206: FX-Sparkle-10_103
+    21300208: FX-Sparkle-10_104
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +135,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +153,1057 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: essence1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 227
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: essence2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 224
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: essence3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 225
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 224
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 224
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 229
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 230
+        width: 57
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 230
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 230
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 212
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 212
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 212
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 192
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 193
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 192
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 192
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 197
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 197
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_18
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 197
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 197
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 200
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 203
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 200
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 195
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 195
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_25
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 195
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_26
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 195
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_28
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 160
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 161
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_30
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 160
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 160
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_32
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_34
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_36
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 164
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_37
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 164
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_38
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 164
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_39
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 148
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_40
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 148
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_41
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 148
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 128
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 129
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_45
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 128
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_46
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 128
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_47
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 133
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_48
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 133
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_49
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 133
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_50
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 133
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_51
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_52
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_53
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_54
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_55
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_56
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_57
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 99
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_58
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 96
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 97
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_60
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 96
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_61
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_62
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_63
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_64
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_65
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_67
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_69
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_70
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 64
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_71
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 65
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_72
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 64
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_73
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 64
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_74
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 69
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_75
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_76
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_77
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_78
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_79
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_80
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_81
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 35
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_82
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 32
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_83
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_84
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 32
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_85
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_86
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_87
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_88
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_89
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_90
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_91
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_92
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_93
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_94
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_95
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_96
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_97
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_98
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_99
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_100
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_101
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_102
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_103
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX-Sparkle-10_104
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

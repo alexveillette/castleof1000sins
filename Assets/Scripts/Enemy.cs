@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
 {
 	protected float speed;
 	protected int damage;
-	protected float health;
+	public float health;
 	protected Transform target;
 	protected bool knockedBack;
 	private float knockbackForce;
@@ -110,7 +110,8 @@ public class Enemy : MonoBehaviour
 
 				//Sends delegate to spawner that enemy has died if health reaches 0.
 				if (health <= 0){
-					IsDying(this);
+					StartCoroutine(EnemyDeath());
+					animator.SetTrigger("deathTrigger");
 				}
 			}
 		}
@@ -128,5 +129,11 @@ public class Enemy : MonoBehaviour
 		//When timer is up, set knockedBack boolean back to false and reset enemy color.
 		knockedBack = false;
 		rend.material.color = new Color32 (255, 255, 255, 255);
+	}
+
+	IEnumerator EnemyDeath()
+	{
+		yield return new WaitForSeconds(0.4f);
+		IsDying(this);
 	}
 }

@@ -6,7 +6,6 @@ public class playerController : MonoBehaviour {
 	private Animator anim;
 	private Rigidbody2D rb;
 	private float speed;
-	private float playerHealth;
 	private bool attacks;
 	private bool playerDisabled;
 	private bool playerInvincible;
@@ -14,24 +13,74 @@ public class playerController : MonoBehaviour {
 	private float knockbackForce;
 	private Vector2 movement;
 	private Vector2 knockback;
+	
+	public LifeBar lifeBar;
+	public EnergyBar energyBar;
+	public PurityBar purityBar;
 
+	private bool purityEnabled;
+	private bool isWhirlwind;
 
-	void Start () 
+	private void Start () 
 	{ 
-
-
 		anim = GetComponent<Animator> ();
 		rb = GetComponent<Rigidbody2D> ();
 		rend = GetComponent<Renderer> ();
-		playerHealth = 10f;
+
 		speed = 1f;
 		playerDisabled = false;
 		playerInvincible = false;
 		knockbackForce = 100f;
+
+		purityEnabled = true;
+		isWhirlwind = false;
+
 	} 
 
 	void FixedUpdate () 
 	{ 
+		PlayerInput ();
+		PurityManagement ();
+		EnergyManagement ();
+	} 
+
+	void OnCollisionEnter2D(Collision2D coll)
+	{
+		//ENEMY COLLISION
+		if (!playerInvincible && !playerDisabled && coll.gameObject.tag == "Enemy") {
+			playerDisabled = true;
+			playerInvincible = true;
+			AdjustHealth (-0.08f);
+			StartCoroutine (PlayerKnockback (coll));
+		} 
+	}
+
+	void OnTriggerEnter2D(Collider2D coll)
+	{
+		if (coll.gameObject.tag == "Essence") 
+		{
+			purityBar.AdjustPurity (0.1f);
+			ScoreManager.score += 1;
+			Destroy(coll.gameObject);
+		}
+	}
+
+	private IEnumerator PlayerKnockback(Collision2D coll)
+	{
+		knockback = new Vector2 ((coll.transform.position.x - transform.position.x), 
+		                        (coll.transform.position.y - transform.position.y)).normalized;
+		rend.material.color = new Color32 (255, 255, 255, 100);
+		rb.AddForce (-knockback * knockbackForce);
+
+		yield return new WaitForSeconds (0.2f);
+		playerDisabled = false;
+		yield return new WaitForSeconds (1.0f);
+		playerInvincible = false;
+		rend.material.color = new Color32 (255, 255, 255, 255);
+	}
+
+	private void PlayerInput()
+	{
 		if (!playerDisabled)
 		{
 			float inputX = Input.GetAxisRaw ("Horizontal");
@@ -54,37 +103,52 @@ public class playerController : MonoBehaviour {
 			}
 			
 			rb.velocity = movement;
-		}
-	} 
 
-	void OnCollisionEnter2D(Collision2D coll)
+			if (Input.GetKeyDown("z") && !isWhirlwind)
+			{
+				isWhirlwind = true;
+				anim.SetTrigger ("whirlwind");
+				anim.SetBool ("whirlwindAnim", true);
+			}
+
+			if (Input.GetKeyUp("z") && isWhirlwind)
+			{
+				isWhirlwind = false;
+				anim.SetBool ("whirlwindAnim", false);
+			}
+		}
+	}
+
+	private void PurityManagement()
 	{
-		if (!playerInvincible && !playerDisabled && coll.gameObject.tag == "Enemy")
+		if (purityEnabled) 
 		{
-			AdjustHealth(1);
-			playerDisabled = true;
-			playerInvincible = true;
-			StartCoroutine(PlayerKnockback(coll));
+			purityBar.AdjustPurity(-0.03f * Time.deltaTime);
 		}
 	}
 
-	IEnumerator PlayerKnockback(Collision2D coll)
+	private void AdjustHealth(float change)
 	{
-		knockback = new Vector2 ((coll.transform.position.x - transform.position.x), 
-		                        (coll.transform.position.y - transform.position.y)).normalized;
-		rend.material.color = new Color32 (255, 255, 255, 100);
-		rb.AddForce (-knockback * knockbackForce);
 
-		yield return new WaitForSeconds (0.2f);
-		playerDisabled = false;
-		yield return new WaitForSeconds (1.0f);
-		playerInvincible = false;
-		rend.material.color = new Color32 (255, 255, 255, 255);
-	
+		lifeBar.AdjustHealth(change);
+
 	}
 
-	public void AdjustHealth(int change)
+	private void EnergyManagement()
 	{
-		print ("OMG" + change);
+		if (isWhirlwind) 
+		{
+			energyBar.AdjustEnergy (-0.25f * Time.deltaTime);
+		} 
+		else 
+		{
+			energyBar.AdjustEnergy (0.05f * Time.deltaTime);
+		}
+
+		if (energyBar.GetEnergy <= 0) 
+		{
+			isWhirlwind = false;
+			anim.SetBool ("whirlwindAnim", false);
+		}
 	}
 }

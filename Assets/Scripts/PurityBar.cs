@@ -13,9 +13,9 @@ public class PurityBar : MonoBehaviour {
 		this.transform.localScale = new Vector3 (purity, transform.localScale.y, transform.localScale.z);
 	}
 	
-	void AdjustEnergy(float change){
-		if (change < 0) {
-			change = 0;
+	public void AdjustPurity(float change){
+		if (change < -1) {
+			change = -1;
 		}
 		else if (change > 1) {
 			change = 1;
