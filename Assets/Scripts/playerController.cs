@@ -61,7 +61,7 @@ public class playerController : MonoBehaviour {
 		{
 			purityBar.AdjustPurity (0.1f);
 			ScoreManager.score += 1;
-			Destroy(coll.gameObject);
+			coll.gameObject.SetActive(false);
 		}
 	}
 

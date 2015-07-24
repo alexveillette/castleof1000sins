@@ -21,6 +21,4 @@ public class Zombie : Enemy
 			AggressiveMove ();
 		}
 	}
-
-
 }
