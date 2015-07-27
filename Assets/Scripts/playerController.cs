@@ -13,6 +13,10 @@ public class playerController : MonoBehaviour {
 	private float knockbackForce;
 	private Vector2 movement;
 	private Vector2 knockback;
+	private AudioSource aus1;
+	private AudioSource aus2;
+	private AudioSource aus3;
+	private AudioSource aus4;
 	
 	public LifeBar lifeBar;
 	public EnergyBar energyBar;
@@ -21,11 +25,28 @@ public class playerController : MonoBehaviour {
 	private bool purityEnabled;
 	private bool isWhirlwind;
 
+	private int nextLevel;
+	public int strength;
+
+	public bool silverKey;
+	public bool goldKey;
+
+	public int grassCut;
+	public int completedPuzzles;
+
+	public ChangeScene changeScene;
+
 	private void Start () 
 	{ 
 		anim = GetComponent<Animator> ();
 		rb = GetComponent<Rigidbody2D> ();
 		rend = GetComponent<Renderer> ();
+
+		var aSources = GetComponents<AudioSource> ();
+		aus1 = aSources [0];
+		aus2 = aSources [1];
+		aus3 = aSources [2];
+		aus4 = aSources [3];
 
 		speed = 1f;
 		playerDisabled = false;
@@ -35,6 +56,15 @@ public class playerController : MonoBehaviour {
 		purityEnabled = true;
 		isWhirlwind = false;
 
+		nextLevel = 20;
+		strength = 1;
+
+		silverKey = false;
+		goldKey = false;
+		grassCut = 0;
+		completedPuzzles = 0;
+
+		DialogueScript.dialogue = "What has happened here? And what is this horrendous fog? No matter, I must look for the king.";
 	} 
 
 	void FixedUpdate () 
@@ -51,7 +81,12 @@ public class playerController : MonoBehaviour {
 			playerDisabled = true;
 			playerInvincible = true;
 			AdjustHealth (-0.08f);
+			if (lifeBar.health <= 0)
+			{
+				GameOver();
+			}
 			StartCoroutine (PlayerKnockback (coll));
+			aus2.Play ();
 		} 
 	}
 
@@ -60,8 +95,14 @@ public class playerController : MonoBehaviour {
 		if (coll.gameObject.tag == "Essence") 
 		{
 			purityBar.AdjustPurity (0.1f);
-			ScoreManager.score += 1;
+			ScoreManager.score++;
+
+			if (ScoreManager.score >= nextLevel)
+			{
+				LevelUp();
+			}
 			coll.gameObject.SetActive(false);
+			aus1.Play ();
 		}
 	}
 
@@ -104,14 +145,15 @@ public class playerController : MonoBehaviour {
 			
 			rb.velocity = movement;
 
-			if (Input.GetKeyDown("z") && !isWhirlwind)
+			if (Input.GetKeyDown("c") && !isWhirlwind)
 			{
 				isWhirlwind = true;
 				anim.SetTrigger ("whirlwind");
 				anim.SetBool ("whirlwindAnim", true);
+				aus3.Play ();
 			}
 
-			if (Input.GetKeyUp("z") && isWhirlwind)
+			if (Input.GetKeyUp("c") && isWhirlwind)
 			{
 				isWhirlwind = false;
 				anim.SetBool ("whirlwindAnim", false);
@@ -123,7 +165,7 @@ public class playerController : MonoBehaviour {
 	{
 		if (purityEnabled) 
 		{
-			purityBar.AdjustPurity(-0.03f * Time.deltaTime);
+			purityBar.AdjustPurity(-0.025f * Time.deltaTime);
 		}
 	}
 
@@ -150,5 +192,23 @@ public class playerController : MonoBehaviour {
 			isWhirlwind = false;
 			anim.SetBool ("whirlwindAnim", false);
 		}
+	}
+
+	private void LevelUp()
+	{
+		ScoreManager.levelNumber += 40;
+		nextLevel += 40;
+		strength++;
+		AdjustHealth (1.0f);
+		energyBar.AdjustEnergy (1.0f);
+		purityBar.AdjustPurity (1.0f);
+		anim.SetTrigger ("levelUp");
+		aus4.Play ();
+	}
+
+	private void GameOver()
+	{
+		changeScene = GameObject.Find ("SceneManager").GetComponent<ChangeScene> ();
+		changeScene.SwitchScene ("gameOverScreen");
 	}
 }

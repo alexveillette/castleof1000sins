@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LifeBar : MonoBehaviour {
+public class LifeBar : MonoBehaviour 
+{
 
-	private float health;
+	public float health;
 
 	void Start () {
 		health = 1.0f;
@@ -15,10 +16,12 @@ public class LifeBar : MonoBehaviour {
 
 	public void AdjustHealth(float change)
 	{
-		if (change < -1f) {
+		if (change < -1f) 
+		{
 			change = -1f;
 		}
-		else if (change > 1f) {
+		else if (change > 1f) 
+		{
 			change = 1f;
 		}
 
@@ -27,7 +30,8 @@ public class LifeBar : MonoBehaviour {
 		if (health < 0) {
 			health = 0;
 		}
-		else if (health > 1) {
+		else if (health > 1) 
+		{
 			health = 1;
 		}
 	}

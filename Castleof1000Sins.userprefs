@@ -1,16 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Zombie.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DialogueManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Zombie.cs" Line="14" Column="3" />
-      <File FileName="Assets\Scripts\SpawnScript.cs" Line="11" Column="28" />
-      <File FileName="Assets\Scripts\Enemy.cs" Line="98" Column="3" />
-      <File FileName="Assets\Scripts\playerController.cs" Line="10" Column="30" />
-      <File FileName="Assets\Scripts\EnergyBar.cs" Line="15" Column="16" />
-      <File FileName="Assets\Scripts\LifeBar.cs" Line="9" Column="17" />
-      <File FileName="Assets\Scripts\Game.cs" Line="11" Column="58" />
-      <File FileName="Assets\Scripts\PurityBar.cs" Line="9" Column="3" />
-      <File FileName="Assets\Scripts\ScoreManager.cs" Line="18" Column="2" />
+      <File FileName="Assets\Scripts\playerController.cs" Line="67" Column="40" />
+      <File FileName="Assets\Scripts\GrassPuzzleScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MusicController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LifeBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ChangeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RightAltarScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LeftAltarScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WinGame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DialogueScript.cs" Line="37" Column="3" />
+      <File FileName="Assets\Scripts\DialogueManager.cs" Line="8" Column="36" />
+      <File FileName="Assets\Scripts\SwitchPuzzleScript.cs" Line="57" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

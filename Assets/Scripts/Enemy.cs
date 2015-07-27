@@ -7,13 +7,15 @@ public class Enemy : MonoBehaviour
 	protected int damage;
 	public float health;
 	protected Transform target;
-	protected bool knockedBack;
+	public bool knockedBack;
 	private float knockbackForce;
 
 	public Transform player;
 	protected Animator animator;
 	protected Rigidbody2D rb;
 	protected Renderer rend;
+	protected AudioSource ausource;
+
 	
 	Vector2 movement;
 	
@@ -34,6 +36,9 @@ public class Enemy : MonoBehaviour
 		rend = GetComponent<Renderer>();
 		knockedBack = false;
 		knockbackForce = 100f;
+
+		ausource = GetComponent<AudioSource>(); 
+
 	}
 
 
@@ -101,9 +106,11 @@ public class Enemy : MonoBehaviour
 			if (IsDying != null) 
 			{
 
-				//Reduces health and sets knockedback boolean to true to prevent multiple hits.
-				health--;
+				//Reduces health and sets knockedback boolean to true to prevent multiple hits. Plays sound.
+				int damage = coll.GetComponentInParent<playerController>().strength;
+				health -= damage;
 				knockedBack = true;
+				ausource.Play ();
 
 				//Starts knockback Coroutine for enemy.
 				StartCoroutine(EnemyKnockback());

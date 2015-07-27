@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b3d2c3933c557b54fb1482c2140146a2
+timeCreated: 1437942976
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - snapshotTitle: {fileID: 24500003, guid: eb2da10b86f9ace49b49433c9acd5afb, type: 2}
+  - snapshotCastle: {fileID: 24567428, guid: eb2da10b86f9ace49b49433c9acd5afb, type: 2}
+  - snapshotWin: {fileID: 24518194, guid: eb2da10b86f9ace49b49433c9acd5afb, type: 2}
+  - snapshotDeath: {fileID: 24505764, guid: eb2da10b86f9ace49b49433c9acd5afb, type: 2}
+  - snapshot: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

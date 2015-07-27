@@ -7,8 +7,9 @@ public class SpawnScript : MonoBehaviour
 	public GameObject zombiePrefab;
 	public GameObject essencePrefab;
 
-	public Enemy enemy;
-	public GameObject essence;
+	private Enemy enemy;
+	private GameObject essence;
+	
 
 	void Start () 
 	{
@@ -35,9 +36,12 @@ public class SpawnScript : MonoBehaviour
 	{
 		yield return new WaitForSeconds(30f);
 
+
 		enemy.transform.position = transform.position;
 		enemy.health = 3f;
 		enemy.gameObject.SetActive(true);
+		enemy.knockedBack = false;
+		enemy.GetComponent<Renderer>().material.color = new Color32 (255, 255, 255, 255);
 	}
 
 }

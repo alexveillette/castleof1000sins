@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 22548418d860ff541ac466465978f73d
+timeCreated: 1437924182
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: armornohelm
+    21300002: helm
+    21300004: armor
+    21300006: grasslong
+    21300008: puzzles_6
+    21300010: puzzles_7
+    21300012: keygold
+    21300014: grassshort
+    21300016: keysilver1
+    21300018: keysilver2
+    21300020: keysilver3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: armornohelm
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 535
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: helm
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 548
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: armor
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 525
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grasslong
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 535
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: puzzles_6
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 547
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: puzzles_7
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 547
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keygold
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 547
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassshort
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 535
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: keysilver3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 499
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

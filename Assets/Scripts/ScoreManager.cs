@@ -6,18 +6,19 @@ public class ScoreManager : MonoBehaviour
 {
 
 	public static int score;
+	public static int levelNumber;
 
-	Text text;
+	private Text scoreText;
 
 	void Start () 
 	{
-		text = GetComponent<Text>();
+		scoreText = GetComponent<Text>();
 		score = 0;
+		levelNumber = 20;
 	}
-	
 
 	void Update () 
 	{
-		text.text = "Score: " + score;
+		scoreText.text = "Soul Essences: " + score + "/" + levelNumber;
 	}
 }

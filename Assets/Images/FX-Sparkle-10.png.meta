@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: d88cca0e925c86548bee6009ce4c0c5d
-timeCreated: 1437742381
-licenseType: Pro
+timeCreated: 1437923016
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: essence1
@@ -61,9 +61,9 @@ TextureImporter:
     21300108: FX-Sparkle-10_54
     21300110: FX-Sparkle-10_55
     21300112: FX-Sparkle-10_56
-    21300114: FX-Sparkle-10_57
-    21300116: FX-Sparkle-10_58
-    21300118: FX-Sparkle-10_59
+    21300114: talk1
+    21300116: talk2
+    21300118: talk3
     21300120: FX-Sparkle-10_60
     21300122: FX-Sparkle-10_61
     21300124: FX-Sparkle-10_62
@@ -724,7 +724,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FX-Sparkle-10_57
+    - name: talk1
       rect:
         serializedVersion: 2
         x: 9
@@ -734,7 +734,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FX-Sparkle-10_58
+    - name: talk2
       rect:
         serializedVersion: 2
         x: 30
@@ -744,7 +744,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FX-Sparkle-10_59
+    - name: talk3
       rect:
         serializedVersion: 2
         x: 55
