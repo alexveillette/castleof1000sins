@@ -3,14 +3,21 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class DialogueScript : MonoBehaviour {
-
+	/// <summary>
+	/// This script is used to handle text fading
+	/// when dialogue is displayed. It is strictly
+	/// for esthetic purposes. The NewText function takes
+	/// a string as parameter, displays the text and fades
+	/// it gradually by using a Coroutine.
+	/// </summary>
 	public static string dialogue;
 
 	private Text text;
 	private Color textColor;
 	private int textAlpha;
 
-	void Start () {
+	void Start () 
+	{
 		text = GetComponent<Text> ();
 
 		textColor.a = 1.0f;

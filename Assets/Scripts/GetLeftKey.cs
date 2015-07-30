@@ -3,6 +3,10 @@ using System.Collections;
 
 public class GetLeftKey : MonoBehaviour 
 {
+	/// <summary>
+	/// Very small script that plays a sound and sets a boolean
+	/// within the player when he has acquired the key.
+	/// </summary>
 
 	bool keyGotten = false;
 	public AudioSource successSound;

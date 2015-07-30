@@ -3,6 +3,9 @@ using System.Collections;
 
 public class LifeBar : MonoBehaviour 
 {
+	/// <summary>
+	/// Small script which handles the HUD display of the life bar.
+	/// </summary>
 
 	public float health;
 

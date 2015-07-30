@@ -3,6 +3,19 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour 
 {
+	/// <summary>
+	/// The Enemy class was supposed to be a parent class
+	/// for all the enemies in the game. Since only one enemy
+	/// was implemented, it makes this class rather redundant.
+	/// Still, I decided to keep it if only to display my ability
+	/// to use inheritance. 
+	/// 
+	/// It handles enemy movement, the collision
+	/// with the player's sword and its knockback effect, and it sends
+	/// a delegate to its spawner when it has died in order to start the
+	/// respawn timer.
+	/// </summary>
+
 	protected float speed;
 	protected int damage;
 	public float health;
@@ -23,9 +36,12 @@ public class Enemy : MonoBehaviour
 	protected bool isWalkingDown;
 	protected bool isWalkingRight;
 	protected bool isWalkingLeft;
-	
+
+
+	//***************DELEGATE*********************
 	public delegate void SwordHitDelegate(Enemy enemy);
 	public event SwordHitDelegate IsDying;
+
 
 	//START
 	protected void SetVariables()
@@ -116,7 +132,8 @@ public class Enemy : MonoBehaviour
 				StartCoroutine(EnemyKnockback());
 
 				//Sends delegate to spawner that enemy has died if health reaches 0.
-				if (health <= 0){
+				if (health <= 0)
+				{
 					StartCoroutine(EnemyDeath());
 					animator.SetTrigger("deathTrigger");
 				}
@@ -141,6 +158,7 @@ public class Enemy : MonoBehaviour
 	IEnumerator EnemyDeath()
 	{
 		yield return new WaitForSeconds(0.4f);
+		//Sends delegate to Spawner class.
 		IsDying(this);
 	}
 }

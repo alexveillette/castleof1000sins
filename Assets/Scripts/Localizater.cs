@@ -13,6 +13,8 @@ public class Localizater : MonoBehaviour {
     //Will print an examepl of use of the localization system.
 	void Start()
 	{
+		GameObject.DontDestroyOnLoad (gameObject);
+
 		savedData = AssetDatabase.LoadAssetAtPath<SavedData>(SAVE_PATH);
 		
 		if (savedData == null) {
@@ -20,18 +22,10 @@ public class Localizater : MonoBehaviour {
 			AssetDatabase.CreateAsset (savedData, SAVE_PATH);
 		}
 
-		Debug.Log ("Untranslated word: Meow [Invalid]");
-		Debug.Log ("Attempt at translating unrecognized word: " + IDToWord("Meow"));
-
-		Debug.Log ("Untranslated word: Banane [Valid]");
-		Debug.Log ("Attempt at translating unrecognized word: " + IDToWord("Banane"));
-		
-		Debug.Log ("Untranslated word: Fraise [Fallback]");
-		Debug.Log ("Attempt at translating unrecognized word: " + IDToWord("Fraise"));
 	}
 	
 	//Fetch translation based on Language and Country for the specific ID
-	string IDToWord(string ID)
+	public string IDToWord(string ID)
 	{
 		//If the word wasn't found, some people might
 		int theIndex = -1;
@@ -58,5 +52,10 @@ public class Localizater : MonoBehaviour {
 			}
 		}
 		return theTranslation;
+	}
+
+	public void ChangeLanguage(string newLanguage)
+	{
+		language = newLanguage;
 	}
 }

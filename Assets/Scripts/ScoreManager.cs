@@ -4,6 +4,10 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour 
 {
+	/// <summary>
+	/// This script handles the HUD display of the
+	/// number of soul essences the player has acquired.
+	/// </summary>
 
 	public static int score;
 	public static int levelNumber;

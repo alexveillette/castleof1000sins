@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WinGame : MonoBehaviour {
+public class WinGame : MonoBehaviour 
+{
+	/// <summary>
+	/// This script is called when the player walks through
+	/// the top door to win the game.
+	/// </summary>
 
 	public MusicController musicController;
 

@@ -3,7 +3,9 @@ using System.Collections;
 
 public class EnergyBar : MonoBehaviour 
 {
-
+	/// <summary>
+	/// This script handles the HUD display of the energy bar.
+	/// </summary>
 	public float energy = 1.0f;
 
 	public float GetEnergy 
@@ -12,11 +14,6 @@ public class EnergyBar : MonoBehaviour
 
 	}
 
-	void Start () 
-	{
-		
-	}
-	
 	void Update () 
 	{
 		this.transform.localScale = new Vector3 (transform.localScale.x, energy, transform.localScale.z);

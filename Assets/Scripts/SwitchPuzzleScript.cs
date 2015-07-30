@@ -1,7 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SwitchPuzzleScript : MonoBehaviour {
+public class SwitchPuzzleScript : MonoBehaviour 
+{
+	/// <summary>
+	/// This script handles the right room puzzle with the switches.
+	/// It checks whether both switch colliders are occupied with 
+	/// either the player or the statue's head. When they both are,
+	/// it enables the key game object which the player can pick up.
+	/// </summary>
 
 	public AudioSource switchAudio;
 	public AudioSource successAudio;

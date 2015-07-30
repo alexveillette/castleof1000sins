@@ -3,6 +3,11 @@ using System.Collections;
 
 public class RightAltarScript : MonoBehaviour 
 {
+	/// <summary>
+	/// A small script that allows the player to put a key on one of the altars
+	/// when he has acquired it by enabling the sprite that is there all along.
+	/// </summary>
+
 	public Transform armorTop;
 	private bool isEnabled;
 	private bool rightKeyDropped;

@@ -2,7 +2,12 @@
 using System.Collections;
 
 public class ChangeScene : MonoBehaviour {
-
+	/// <summary>
+	/// This simple script is found on the SceneManager
+	/// game object, and changes scenes depending on what
+	/// happens in the game. It also transitions to the 
+	/// appropriate music.
+	/// </summary>
 	public MusicController musicController;
 	
 	public void SwitchScene(string scene)

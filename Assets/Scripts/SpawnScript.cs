@@ -3,7 +3,12 @@ using System.Collections;
 
 public class SpawnScript : MonoBehaviour 
 {
-
+	/// <summary>
+	/// This script handles each spawner on the map. When the map is loaded,
+	/// it spawns an enemy. When the enemy dies, it receives the death delegate
+	/// and uses a Coroutine to spawn a new enemy after 30 seconds, allowing 
+	/// the player to kill enemies infinitely.
+	/// </summary>
 	public GameObject zombiePrefab;
 	public GameObject essencePrefab;
 
@@ -20,11 +25,15 @@ public class SpawnScript : MonoBehaviour
 		//Spawning collectable and making it inactive
 		essence = GameObject.Instantiate(essencePrefab, enemy.transform.position, Quaternion.identity) as GameObject;
 		essence.SetActive (false);
+
+		//SET DELEGATE
 		enemy.IsDying += EnemyDeath;
 	}
 
 	private void EnemyDeath(Enemy enemy) 
 	{
+		//Receives delegate.
+		//Spawns essence and starts respawn timer.
 		essence.transform.position = enemy.transform.position;
 		enemy.gameObject.SetActive(false);
 		essence.SetActive (true);

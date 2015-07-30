@@ -3,6 +3,13 @@ using System.Collections;
 
 public class cutGrassScript : MonoBehaviour {
 
+	/// <summary>
+	/// This very small script handles the grass room puzzle.
+	/// It simply plays a sound and changes the sprite of the
+	/// game object when the player slashes it with his sword.
+	/// If enough grass is cut, the key appears.
+	/// </summary>
+
 	bool isCut = false;
 	private Animator animator;
 	public AudioSource grassCutAudio;
@@ -16,8 +23,6 @@ public class cutGrassScript : MonoBehaviour {
 		grassCutAudio = aSources [1];
 
 		animator = GetComponent<Animator> ();
-
-
 	}
 
 	void OnTriggerEnter2D(Collider2D coll)

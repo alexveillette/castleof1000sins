@@ -2,7 +2,14 @@
 using System.Collections;
 using UnityEngine.Audio;
 
-public class MusicController : MonoBehaviour {
+public class MusicController : MonoBehaviour 
+{
+	/// <summary>
+	/// This script is used to transition from
+	/// one song to another in smooth fashion by referring
+	/// to snapshots that were created in the editor.
+	/// </summary>
+
 
 	public AudioMixerSnapshot snapshotTitle;
 	public AudioMixerSnapshot snapshotCastle;
@@ -11,7 +18,8 @@ public class MusicController : MonoBehaviour {
 
 	public AudioMixerSnapshot snapshot;
 
-	void Start () {
+	void Start () 
+	{
 		GameObject.DontDestroyOnLoad (gameObject);
 	}
 	
